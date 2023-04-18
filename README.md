@@ -1,2 +1,2 @@
 # Royal Queens & Kings
-It's about haircuts
+A Royal Experience You Can Only Dream of!
