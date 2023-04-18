@@ -1,2 +1,2 @@
-# royalqueensandkings
-I'ts about haircuts
+# Royal Queens & Kings
+It's about haircuts
