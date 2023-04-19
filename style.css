@@ -1,8 +1,9 @@
-userbody{background-color: aqua;
-
+.index{
+    background-color: aqua;
+    
 }
-userboard{
-    color:blue
+.userboard{
+    color:rgb(0, 0, 0);
 }
 
 
