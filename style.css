@@ -1,15 +1,12 @@
-<<<<<<< HEAD
-.index{
+.catalogue{
     background-color: aqua;
     
 }
 .userboard{
     color:rgb(0, 0, 0);
-=======
-.bookingform{
-    background: rgba(72, 72, 175, 0.76)
 }
-.userboard{
-    color:black;
->>>>>>> a8ce9cd7439bea46c383a8de4f60cf4e1824fcd4
+.catalogue-pic{
+    width: 150px;
+    height: 150px;
 }
+
