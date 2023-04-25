@@ -1,5 +1,5 @@
 .userbody{
-     background:rgb(235, 164, 77);
+     background:rgb(238, 171, 70);
 }
 .userboard{
     color:black ;
@@ -9,4 +9,5 @@ img{
     border-radius: 4px;
     padding: 4px;
     width: 300px;
+    height: 300px;
 }
