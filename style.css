@@ -111,6 +111,12 @@ nav{
     padding-left: 50px;
 } 
 .bravo{
-font-size: 50px;
+font-size: 60px;
 color: black
+}
+.mail{
+    font-size: 40px;
+}
+.bony{
+font-size: 20px;
 }
