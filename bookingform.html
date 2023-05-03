@@ -1,27 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>BOOKING FORM</title>
+
     <link rel="stylesheet" href="style.css" >
 
     <title>Document</title>
-</head>
-<body class="bookingform">
-    <section class="userboard">
-    <h1>BOOKING FORM</h1>     
-    <h4>NAME&SURNAME</h4><input type="text"/>
-    <h4>EMAIL</h4><input type="alphanumeric"/>
-    <h4>ADDRESS</h4><input type="alphanumeric"/>
-    <h4>CITY</h4><input type="text"/>
-    <h4>PROVINCE/STATE</h4><input type="text"/>
-    <h4>PHONE NUMBER</h4><input type="numeric"/>
 
-   <div>
-   <button type="button">Submit</button>
-   <button type="button">Cancel</button></div>
-</section>
+</head>
+<body>
+
+<div class="booking-form-container">
+    <form class="user-details">
+     <div class="head"><h1>BOOKING FORM</h1></div>   
+        <h2>General Information</h2>
+        <div class="user-container">
+                <h4 class="user-info">Title:</h4><input type="user-details" type="alphanumeric">
+                <h4 class="user-info">First Name:</h4><input type="user-details" type="alphanumeric">
+                <h4 class="user-info">Last Name:</h4><input type="user-details" type="alphanumeric">
+        </div>  
+        <h2>Contact Details</h2>
+        <div class="user-container">
+            <h4 class="user-contact">Street Address:</h4><input type="details" type="alphanumeric"/>
+            <h4 class="user-contact">Home Address:</h4><input type="details" type="alphanumeric"/>
+            <h4 class="user-contact">Country:</h4><input type="details" type="alphanumeric"/>
+        </div>
+        <div class="user-container">
+            <h4 class="user-text"></h4class>Town/City:</h4><input type="details" type="alphanumeric"/>
+            <h4 class="user-text"></h4class>Phone Number:</h4><input type="details" type="numeric"/>
+            <h4 class="user-text">Email Address:</h4><input type="details" type="alphanumeric"/>
+        </div>
+    </form>
+    <div class="booking-buttons">
+        <button type="button">Submit</button>
+        <button type="button">Cancel</button>
+   </div>
+</div>
+
+
+
 </body>
- 
+
+</html>

@@ -13,3 +13,149 @@
 .index{
 text-align: center;
 }
+ /* .bookingform{
+    background-color: rgba(5, 5, 238, 0.76);
+    border: solid 1px red;
+ }
+
+ 
+
+
+.user-details{
+
+width: 300px;
+margin: auto;
+border-top: none;
+border-left: none;
+border-right: none;
+outline: none;
+background: transparent;
+
+    padding: 0px;
+    border-bottom: solid 1px black;
+    background-color: 0;
+    
+}
+    
+.fullname{
+    justify-content: center;
+    align-content: center;
+    width: 300px;
+    margin: 240px 700px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    
+        padding: 0px;
+        border-bottom: solid 1px black;
+        background-color: 0;
+        
+    }
+
+    .lastname{
+        width: 300px;
+        margin: 5px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        outline: none;
+        background: transparent;
+        
+            padding: 0px;
+            border-bottom: solid 1px black;
+            background-color: 0;
+            
+        }
+
+.details{
+    margin: 5px;
+    width: 10%;
+    border: 3px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: 0;
+}
+
+    
+
+
+.details{
+border: transparent;
+border-bottom: solid 1px black;
+background-color: 0;
+box-sizing: border-box;
+display: flex;
+    
+
+/* / */
+
+.booking-form-container{
+    background-color: rgb(224, 184, 108);
+}
+
+.user-container{ 
+    display: flex;
+    margin: 100px;
+
+}
+.booking-form-container{
+
+    margin: 100px;
+}
+.user-details{
+    width: 300px;
+    margin: 100px;
+    border: solid 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    padding: 0px;
+    border-bottom: solid 1px black;
+   
+}
+.booking-buttons{
+    background-color: rgb(224, 184, 108);
+    padding: 5px;
+}
+.user-info{
+    font-size: 19px;
+    margin-left: 140px; 
+    padding: 0px;
+
+
+}
+input{
+    margin: 35px 10px;
+    width: 550px;
+    border: transparent;
+    border-bottom: solid 1px black;
+}
+button{
+    background-color: rgb(238, 159, 14);
+    padding: 5px;
+    border-radius: 10px;
+    width: 225px;
+    color: rgb(8, 8, 8);
+    font-size: 20px;
+    font-style: italic;
+}
+
+.user-contact{
+    font-size: 19px;
+    margin-left: 140px;
+
+}
+
+.user-text{
+    font-size: 19px;
+    margin-left: 140px;
+}
+
+.head{
+font-size: 30px;
+margin-left: 600px;
+}
+
