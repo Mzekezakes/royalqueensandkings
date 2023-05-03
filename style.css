@@ -14,6 +14,10 @@
 nav{
     /* background-color: green; */
     display: flex;
+    background-color: transparent;
+    color:rgb(224, 184, 108);
+    align-items: ;
+
 }
 .nav-btn{
     margin-left: 150px;
@@ -38,4 +42,16 @@ img{
 height: 400px;
 width: 400px;
 }
+.h1{
+    font-size: 50px;
+    color: brown;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+    color: rgb(224, 184, 108);
+font-size: 17px;
+
+}
+
 
