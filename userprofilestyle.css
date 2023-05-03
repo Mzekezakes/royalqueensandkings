@@ -1,0 +1,26 @@
+.userbody{
+    background-color: rgb(224, 184, 108);
+}
+.userboard{
+    color: #000;
+    border: solid 1px black;
+    border-radius: 50px;
+    padding: 80px 100px;
+}
+
+section{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin: 70px 600px
+    
+
+}
+.user{
+    font-size: 22pt;
+
+}
+
+
+
+

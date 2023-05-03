@@ -1,0 +1,67 @@
+/* *{
+    scroll-behavior: none;
+
+} */
+.Royals{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: solid 1px black; 
+}
+body{
+    background-color: rgba(224, 184,108);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+section{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin: 240px 700px;
+}
+.social-links{
+    display: flex;
+    margin: 15px;
+}
+#link{
+    margin-top: -20px;
+    padding-left: 10px;
+}
+.password a{
+    text-decoration: none;
+    color: black;
+
+}
+.input{
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(246, 248, 250);
+}
+.container{
+    margin-left: 80px;
+    padding: 50px 50px 30px;
+}
+.login-heading{
+    font-size: 22pt;
+    
+}
+.label-login{
+    font-size: 10pt;
+    line-height: 3px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+.button{
+    border-radius: 20px;
+ background-color: rgba(146, 191, 197, 0.767); 
+    margin-left: 40px;
+    width: 100px;
+    height: 40px;
+    -webkit-text-fill-color: white;
+    background-attachment: fixed;
+}
+.social-links{
+    margin-left: 40px
+    ;
+} 
+
