@@ -9,8 +9,8 @@
     border: 1px;
     border-radius: 4px;
     padding: 4px;
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
 }
 nav{
     /* background-color: green; */
@@ -30,28 +30,22 @@ nav{
 }
 .searchbox{
     height: 40px;
-    width: 480px;
+    width: 400px;
     margin-top: 30px;
     margin-left: 150px;
-    border-radius: 5px;
+    border-radius: 50px;
 }
 img{
-    border: 1px solid #add;
-    border-radius:8px;
+    border-radius: 7px;
+    padding: 8px;
+    width: 200px;
+    height:200px;
+}
+.href{
+    border-radius:7px;
     padding: 8px;
     width: 400px;
-    height:400px;
-}
-.h1{
-    font-size: 50px;
-    color: brown;
-}
-body{
-    font-family: Arial, sans-serif;
-    background-color: aliceblue;
-    color: rgb(224, 184, 108);
-font-size: 17px;
-
+    height: 400px;
 }
 
 
