@@ -35,13 +35,19 @@ input{
     padding: 5px;
     background-color: rgb(246, 248, 250);
 }
-.buttton{
-    border-radius: 20px;
-    margin-left: 40px;
+.btn{
+    border-radius: 30px;
+    margin-left: 85px;
     width: 100px;
     height: 40px;
     -webkit-text-fill-color: white;
     background-attachment: fixed;
-    background-color: rgb(146, 191, 197, 0.767);
+    background-color: rgb(146,191,197,0.767);
     
+}
+.button{
+    padding-top: 10px;
+}
+.text{
+    padding-top: 12px;
 }
