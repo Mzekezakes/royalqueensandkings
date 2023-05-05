@@ -1,7 +1,7 @@
-<script>
-function search(params) {
-     searchInput =document.getElementById ('searchInput').value
+function bodylayout() {
+//Get form data 
+var search =document.getElementById("search").value
+
+//Retrieve body layout data from session storage
+var search = sessionStorage.getItem("search");
 }
-
-
-</script>
