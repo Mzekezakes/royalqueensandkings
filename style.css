@@ -1,20 +1,92 @@
-
-.userbody{
-    background:rgb(224, 184, 108)
+body{
+    background-color:rgb(224, 183, 106)
+    
 }
 .userboard{
-    color:black ;
+    color:rgb(0, 0, 0);
+    border-radius: 5px;
 }
 .logo{
     border: 1px;
     border-radius: 4px;
     padding: 4px;
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
 }
+
+.booking-form-container{
+    background-color: rgb(224, 184, 108);
+}
+
+.user-container{ 
+    display: flex;
+    margin: 100px;
+
+}
+.booking-form-container{
+
+    margin: 100px;
+}
+.user-details{
+    width: 300px;
+    margin: 100px;
+    border: solid 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    padding: 0px;
+    border-bottom: solid 1px black;
+   
+}
+.booking-buttons{
+    background-color: rgb(224, 184, 108);
+    padding: 5px;
+}
+.user-info{
+    font-size: 19px;
+    margin-left: 140px; 
+    padding: 0px;
+
+
+}
+.searchbox{
+    height: 40px;
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 150px;
+    border-radius: 50px;
+    float: right;
+}
+img{
+    border-radius: 7px;
+    padding: 8px;
+    width: 200px;
+    height:200px;
+}
+.href{
+    border-radius:7px;
+    padding: 8px;
+    width: 400px;
+    height: 400px;
+}
+
+.user-text{
+    font-size: 19px;
+    margin-left: 140px;
+}
+
+.head{
+font-size: 30px;
+margin-left: 600px;
+}
+
 nav{
     /* background-color: green; */
     display: flex;
+    background-color: transparent;
+    color:rgb(224, 184, 108);
+   
 }
 .nav-btn{
     margin-left: 150px;
@@ -22,19 +94,29 @@ nav{
     color: white;
     border: none;
     font-size: 16px;
-
 }
-.searchbox{
-    height: 40px;
-    width: 480px;
-    margin-top: 30px;
-    margin-left: 150px;
-    border-radius: 5px;
+.pic-links{
+    display: flex;
 }
-img{
-    border: 1px solid #add;
-    border-radius:8px;
-    padding: 8px;
-    width: 400px;
-    height:400px;
+.pic-box{
+    border: solid 1px rgb(206, 157, 65);
+    box-shadow: 5px 5px rgb(206, 157, 65);
+    border-radius: 10px;
+}
+.service-type{
+    margin-left: 100px;
+}
+.hero{
+    padding-top: 80px;
+    padding-left: 50px;
+} 
+.bravo{
+font-size: 60px;
+color: black
+}
+.mail{
+    font-size: 40px;
+}
+.bony{
+font-size: 20px;
 }
