@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="signup.css">
+    <script src="signup.js"></script>
 
     <title>Document</title>
 </head>
@@ -16,16 +17,16 @@
  <div class="head"><h1>Signup</h1> </div> 
 
   <div class="input-field">
-  <h4>User ID</h4><Input type="alphanumeric"/>
-  <h4>Name</h4><Input type="text"/>
-  <h4>Email</h4><Input type="alphanumeric"/>
-  <h4>Phone</h4><Input type="alphanumeric"/>
-  <h4>Profession</h4><Input type="text"/>
-  <h4>Location</h4><Input type="alphanumeric"/>
-  <h4>Password</h4><Input type="alphanumeric"/>
-  <h4>Status</h4><Input type="alphanumeric"/>
+  <h4>User ID</h4><Input type="alphanumeric" id="userId"/>
+  <h4>Name</h4><Input type="text" id="name"/>
+  <h4>Email</h4><Input type="alphanumeric" id="email"/>
+  <h4>Phone</h4><Input type="alphanumeric" id="contact"/>
+  <h4>Profession</h4><Input type="text" id="profession"/>
+  <h4>Location</h4><Input type="alphanumeric" id="location"/>
+  <h4>Password</h4><Input type="alphanumeric" id="password"/>
+  <h4>Status</h4><Input type="alphanumeric" id="status"/>
 </div>
-<div class="button"><button class="btn" type="button">Sign In</button></div>
+<div class="button"><button class="btn" type="button" onclick="Signup()">Sign In</button></div>
 
  <div class="text"> Already have an account?<a href="login.html">Login Here</a></div>
 </div>
