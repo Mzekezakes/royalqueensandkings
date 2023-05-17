@@ -1,19 +1,82 @@
 body{
-    background-color:rgb(224, 183, 106)
-    
+  margin: 0;
+  padding: 0;
+  background-color:rgb(224, 183, 106);
 }
 .userboard{
     color:rgb(0, 0, 0);
     border-radius: 5px;
 }
+
 .logo{
     border: 1px;
     border-radius: 4px;
-    padding: 4px;
+    padding: 10px;
     width: 50px;
     height: 50px;
-}
 
+}
+nav{
+  background-color: transparent;
+  color:rgb(224, 184, 108);
+ 
+}
+.nav-btn{
+  margin-left: 150px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 16px;
+}
+.searchbox{
+  height: 40px;
+  width: 400px;
+  margin-top: 30px;
+  margin-left: 150px;
+  border-radius: 50px;
+  float: right;
+}
+.hero{
+  padding-top: 80px;
+  /* padding-left: 100px; */
+  background-color: green;
+} 
+@keyframes slidy {
+  0% { left: 0%; }
+  20% { left: 0%; }
+  25% { left: -200%; }
+  45% { left: -400%; }
+  50% { left: -600%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: -400%; }
+  }
+  
+  div#slider { overflow: hidden; }
+  div#slider figure img { 
+      width: 10%; 
+  }
+  div#slider figure { 
+    position: relative;
+    width: 380%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 30s slidy infinite; 
+    border: solid 1px rgb(26, 22, 22);
+  }
+  .slider-img{
+      height: 250px;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+line-height: 1.5;
+font-family: 'Poppins', sans-serif;
+}
+/*
 .booking-form-container{
     background-color: rgb(224, 184, 108);
 }
@@ -41,7 +104,7 @@ body{
 }
 .booking-buttons{
     background-color: rgb(224, 184, 108);
-    padding: 5px;
+    padding: 50px;
 }
 .user-info{
     font-size: 19px;
@@ -50,14 +113,7 @@ body{
 
 
 }
-.searchbox{
-    height: 40px;
-    width: 400px;
-    margin-top: 30px;
-    margin-left: 150px;
-    border-radius: 50px;
-    float: right;
-}
+
 img{
     border-radius: 7px;
     padding: 8px;
@@ -79,25 +135,16 @@ img{
 .head{
 font-size: 30px;
 margin-left: 600px;
+
 }
 
-nav{
-    /* background-color: green; */
-    display: flex;
-    background-color: transparent;
-    color:rgb(224, 184, 108);
-   
-}
-.nav-btn{
-    margin-left: 150px;
-    background-color: transparent;
-    color: white;
-    border: none;
-    font-size: 16px;
-}
+
 .pic-links{
     display: flex;
+    margin: 10px;
+    padding: 20px;
 }
+
 .pic-box{
     border: solid 1px rgb(206, 157, 65);
     box-shadow: 5px 5px rgb(206, 157, 65);
@@ -106,11 +153,178 @@ nav{
 .service-type{
     margin-left: 100px;
 }
-.hero{
-    padding-top: 80px;
-    padding-left: 50px;
-} 
+
 .bravo{
-font-size: 50px;
+font-size: 60px;
 color: black
 }
+.mail{
+    font-size: 40px;
+}
+.bony{
+font-size: 20px;
+}
+
+.slogan{
+    margin-left: 100x;
+    padding: 20px;
+    font-size: 50px;
+}
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1170px;
+  margin:auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer{
+  background-color: rgb(189, 144, 22);
+    padding:
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left:0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+/*responsive*/
+/* @media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+} */
+
+
+
+
+
+
+ */ */
+ .footer-basic {
+  padding:40px 0;
+  background-color:#ffffff;
+  color:#4b4c4d;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+/* Credit to https://epicbootstrap.com/snippets/footer-basic */
